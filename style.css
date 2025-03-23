@@ -1,0 +1,48 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+h1 {
+    color: blue;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* ID Selector */
+#intro {
+    color: green;
+    font-size: 18px;
+}
+
+/* Class Selector */
+.text {
+    color: red;
+    font-style: italic;
+}
+
+.box {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Group Selector */
+h2, p {
+    color: purple;
+    margin: 10px 0;
+}
+
+/* Attribute Selector */
+a[target="_blank"] {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a[target="_blank"]:hover {
+    text-decoration: underline;
+}
