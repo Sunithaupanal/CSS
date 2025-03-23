@@ -1,0 +1,63 @@
+/* Universal styles to reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Title with custom font and color */
+.title {
+    font-family: 'Georgia', serif;
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Intro paragraph with different font and alignment */
+.intro {
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Highlighted span with different color and size */
+.highlight {
+    font-size: 18px;
+    color: #ff5733;
+    font-weight: bold;
+}
+
+/* Styling the information block */
+.info {
+    background-color: #e8e8e8;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
+
+/* Styling the link */
+.link {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Formatted paragraph with bold, italic, and underlined text */
+.formatted {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #4CAF50;
+}
