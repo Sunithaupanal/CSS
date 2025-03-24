@@ -1,0 +1,63 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light grey background */
+}
+
+/* Main container with background color and border */
+.container {
+    background-color: #ffebcd; /* Blanched almond background */
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #ff6347; /* Tomato solid border */
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Background with image (no-repeat, fixed attachment, and shorthand) */
+.bg-image {
+    height: 100vh;
+
+    background: url('background.jpg') no-repeat center/cover fixed;
+    margin: 20px;
+    padding: 20px;
+    border: 4px solid #4682b4; /* Steel blue border */
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+}
+
+/* Background with repeat */
+.bg-repeat {
+    height: 150px;
+    background: url('pattern.png') repeat;
+    margin: 20px;
+    padding: 20px;
+    border: 3px dotted #32cd32; /* Lime green dotted border */
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Box with a solid border and rounded corners */
+.border-box {
+    padding: 15px;
+    margin: 20px;
+    border: 5px solid #8a2be2; /* Blue violet */
+    border-radius: 12px;
+    background-color: #f0f8ff; /* Alice blue */
+    text-align: center;
+}
+
+/* Box with dashed border and individual side colors */
+.dashed-border {
+    padding: 15px;
+    margin: 20px;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: #ff4500 #ff6347 #32cd32 #4682b4; /* Different colors for sides */
+    border-radius: 15px;
+    background-color: #fafad2; /* Light goldenrod yellow */
+    text-align: center;
+}
