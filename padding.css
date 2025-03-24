@@ -1,0 +1,42 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light grey background */
+}
+
+/* Main container */
+.container {
+    background-color: #e0f7fa; /* Light cyan background */
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #00796b; /* Teal border */
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Box with margin and padding */
+.box {
+    background-color: #ffeb3b; /* Yellow background */
+    margin: 30px; /* Margin on all sides */
+    padding: 20px; /* Padding on all sides */
+    border: 2px solid #ff9800; /* Orange border */
+    border-radius: 5px;
+}
+
+/* Margin Example */
+.margin-example {
+    background-color: #c8e6c9; /* Light green */
+    margin: 40px; /* Space outside the box */
+    padding: 15px;
+    border: 2px dashed #388e3c; /* Green dashed border */
+}
+
+/* Padding Example */
+.padding-example {
+    background-color: #ffcdd2; /* Light pink */
+    margin: 20px;
+    padding: 40px; /* Space inside the box */
+    border: 2px solid #d32f2f; /* Red solid border */
+}
